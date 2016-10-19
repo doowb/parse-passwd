@@ -23,5 +23,29 @@
   "keywords": [
     "parse",
     "passwd"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.1.2"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
 }
